@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="114" id="KGk-i7-Jjw" customClass="MineHeaderCell" customModule="_1Bang_ios_2016" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="114"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="113"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vpz-Te-GJj">
+                        <rect key="frame" x="8" y="30" width="55" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="55" id="O0G-Ln-bAn"/>
+                            <constraint firstAttribute="height" constant="55" id="ecd-qs-0cT"/>
+                        </constraints>
+                        <state key="normal" image="ic_moren-1"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_nan-1" translatesAutoresizingMaskIntoConstraints="NO" id="Cas-bg-O6n">
+                        <rect key="frame" x="73" y="30" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="DpP-GB-ezT"/>
+                            <constraint firstAttribute="width" constant="20" id="Scc-y5-8lq"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_shouji" translatesAutoresizingMaskIntoConstraints="NO" id="zl6-Nu-NTE">
+                        <rect key="frame" x="73" y="65" width="15" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="f8q-pX-kac"/>
+                            <constraint firstAttribute="height" constant="20" id="fxf-Nx-6zs"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eg3-7l-Icp">
+                        <rect key="frame" x="98" y="30" width="64" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6P-uj-mSK">
+                        <rect key="frame" x="215" y="43" width="105" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <state key="normal" title="实名认证" image="ic_shenfenrenzheng" backgroundImage="认证背景-wode">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="17362837485" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbG-Ju-R1c">
+                        <rect key="frame" x="96" y="65" width="96" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.76862745098039209" blue="0.6705882352941176" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="Cas-bg-O6n" firstAttribute="top" secondItem="Vpz-Te-GJj" secondAttribute="top" id="0Aq-pn-zj4"/>
+                    <constraint firstItem="Vpz-Te-GJj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="2M6-0o-Zw7"/>
+                    <constraint firstItem="EbG-Ju-R1c" firstAttribute="leading" secondItem="Eg3-7l-Icp" secondAttribute="leading" id="8kd-NW-5oI"/>
+                    <constraint firstItem="zl6-Nu-NTE" firstAttribute="leading" secondItem="Cas-bg-O6n" secondAttribute="leading" id="Mrz-Gy-Grs"/>
+                    <constraint firstItem="Eg3-7l-Icp" firstAttribute="top" secondItem="Vpz-Te-GJj" secondAttribute="top" id="Niq-dR-kpA"/>
+                    <constraint firstAttribute="trailing" secondItem="e6P-uj-mSK" secondAttribute="trailing" id="Scp-iO-Vud"/>
+                    <constraint firstItem="Cas-bg-O6n" firstAttribute="leading" secondItem="Vpz-Te-GJj" secondAttribute="trailing" constant="10" id="X70-yv-PtA"/>
+                    <constraint firstItem="Eg3-7l-Icp" firstAttribute="leading" secondItem="Cas-bg-O6n" secondAttribute="trailing" constant="5" id="XNA-Rf-KL5"/>
+                    <constraint firstItem="e6P-uj-mSK" firstAttribute="centerY" secondItem="Vpz-Te-GJj" secondAttribute="centerY" id="fln-34-ypJ"/>
+                    <constraint firstItem="Vpz-Te-GJj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="mOZ-3S-a7K"/>
+                    <constraint firstItem="zl6-Nu-NTE" firstAttribute="bottom" secondItem="Vpz-Te-GJj" secondAttribute="bottom" id="vlj-cM-DbT"/>
+                    <constraint firstItem="EbG-Ju-R1c" firstAttribute="top" secondItem="zl6-Nu-NTE" secondAttribute="top" id="wYC-gC-Vpe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconBtn" destination="Vpz-Te-GJj" id="hy6-VR-7mc"/>
+                <outlet property="name" destination="Eg3-7l-Icp" id="Wbz-hC-pd4"/>
+                <outlet property="phone" destination="EbG-Ju-R1c" id="Vui-m2-YkZ"/>
+                <outlet property="renzheng" destination="e6P-uj-mSK" id="PMv-rN-wtP"/>
+                <outlet property="sex" destination="Cas-bg-O6n" id="Hhl-bp-lB4"/>
+            </connections>
+            <point key="canvasLocation" x="-130" y="266"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_moren-1" width="55" height="55"/>
+        <image name="ic_nan-1" width="16" height="16"/>
+        <image name="ic_shenfenrenzheng" width="17" height="17"/>
+        <image name="ic_shouji" width="12" height="16"/>
+        <image name="认证背景-wode" width="105" height="30"/>
+    </resources>
+</document>

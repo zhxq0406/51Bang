@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="52" id="KGk-i7-Jjw" customClass="ShopFootViewCell" customModule="_1Bang_ios_2016" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="51"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="价格:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JcP-rx-o6U">
+                        <rect key="frame" x="8" y="8" width="42" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="r6o-2W-F2Y"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="运费:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGq-sT-heD">
+                        <rect key="frame" x="129" y="8" width="42" height="35"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4LQ-Mg-Tet">
+                        <rect key="frame" x="163" y="8" width="66" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="66" id="6yH-3S-KP6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMH-Hf-eh3">
+                        <rect key="frame" x="229" y="0.0" width="91" height="51"/>
+                        <state key="normal" title="购买"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="59.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1h-o5-3l0">
+                        <rect key="frame" x="43" y="8" width="67" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="67" id="DXh-J9-1G3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="HGq-sT-heD" firstAttribute="top" secondItem="JcP-rx-o6U" secondAttribute="top" id="0tf-Ep-0h4"/>
+                    <constraint firstItem="HGq-sT-heD" firstAttribute="width" secondItem="JcP-rx-o6U" secondAttribute="width" id="2mS-Qf-nAB"/>
+                    <constraint firstAttribute="bottom" secondItem="QMH-Hf-eh3" secondAttribute="bottom" id="35a-9V-CA8"/>
+                    <constraint firstItem="HGq-sT-heD" firstAttribute="height" secondItem="JcP-rx-o6U" secondAttribute="height" id="7BM-RV-UBS"/>
+                    <constraint firstAttribute="trailing" secondItem="QMH-Hf-eh3" secondAttribute="trailing" id="9S8-Pi-hgP"/>
+                    <constraint firstItem="QMH-Hf-eh3" firstAttribute="leading" secondItem="4LQ-Mg-Tet" secondAttribute="trailing" id="FQ8-cg-BjI"/>
+                    <constraint firstItem="4LQ-Mg-Tet" firstAttribute="leading" secondItem="W1h-o5-3l0" secondAttribute="trailing" constant="53" id="Fjd-yL-xxp"/>
+                    <constraint firstItem="JcP-rx-o6U" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="NuP-MB-bI3"/>
+                    <constraint firstAttribute="bottom" secondItem="JcP-rx-o6U" secondAttribute="bottom" constant="8" id="TP4-NC-mwk"/>
+                    <constraint firstItem="4LQ-Mg-Tet" firstAttribute="height" secondItem="JcP-rx-o6U" secondAttribute="height" id="WYz-aC-dYO"/>
+                    <constraint firstItem="W1h-o5-3l0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="43" id="ayS-qx-Qeo"/>
+                    <constraint firstItem="JcP-rx-o6U" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="cJ2-gQ-PBb"/>
+                    <constraint firstItem="W1h-o5-3l0" firstAttribute="height" secondItem="JcP-rx-o6U" secondAttribute="height" id="mbF-Zf-LpE"/>
+                    <constraint firstItem="HGq-sT-heD" firstAttribute="leading" secondItem="W1h-o5-3l0" secondAttribute="trailing" constant="19" id="o1w-A1-6wK"/>
+                    <constraint firstItem="W1h-o5-3l0" firstAttribute="top" secondItem="JcP-rx-o6U" secondAttribute="top" id="r0d-tY-J1Z"/>
+                    <constraint firstItem="4LQ-Mg-Tet" firstAttribute="top" secondItem="JcP-rx-o6U" secondAttribute="top" id="tDG-dW-b0F"/>
+                    <constraint firstItem="QMH-Hf-eh3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="vqk-yj-ZEl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="buy" destination="QMH-Hf-eh3" id="Nvu-Kc-afW"/>
+                <outlet property="price" destination="W1h-o5-3l0" id="KVd-HW-mkT"/>
+                <outlet property="yunfei" destination="4LQ-Mg-Tet" id="XGY-qU-37w"/>
+            </connections>
+            <point key="canvasLocation" x="555" y="462"/>
+        </tableViewCell>
+    </objects>
+</document>
